@@ -1,0 +1,162 @@
+body{
+    background-color: #ebe4d2 ;
+    font-family: sans-serif;
+    margin: 0;
+    color: #cacaca;
+    margin-top: -20px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: navy;
+    align-items: center;
+    padding: 10px;
+    
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h2{
+    color: #cacaca;
+}
+a{
+    text-decoration: none;
+    color: #cacaca ;
+
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.titulo{
+    color: #cacaca;
+    position: absolute;
+    top: 20px;
+    font-size: xx-small;
+}
+
+
+.tienda_1{
+    position: absolute;
+    left: 225px;
+    top: 200px;
+    
+
+    
+}
+
+.tienda_1 img{
+    width: 600px;
+    height: auto;
+}
+
+.info h2{
+    position: absolute;
+    top: -10px;
+    left: 800px;
+    display: flex;
+    color: black;
+}
+
+.info nav{
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    display: inline-block;
+    color: black;
+}
+
+.tienda_2{
+    position: absolute;
+    left: 225px;
+    top: 600px;
+    
+
+    
+}
+
+.tienda_2 img{
+    width: 600px;
+    height: auto;
+}
+
+.info2 h2{
+    position: absolute;
+    top: -10px;
+    left: 800px;
+    display: flex;
+    color: black;
+}
+
+.info2 nav{
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    display: inline-block;
+    color: black;
+}
+
+.tienda_3{
+    position: absolute;
+    left: 225px;
+    top: 1000px;
+    
+
+    
+}
+
+.tienda_3 img{
+    width: 600px;
+    height: auto;
+}
+
+.info3 h2{
+    position: absolute;
+    top: -10px;
+    left: 800px;
+    display: flex;
+    color: black;
+}
+
+.info3 nav{
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    display: inline-block;
+    color: black;
+}
+
+
+footer{
+    height: 50px; /* Ajusta según sea necesario */
+    background-color:navy;
+    color: #cacaca ;
+    text-align: center;
+    line-height: 50px; /* Para centrar verticalmente el texto */
+    position: relative;
+    top: 1600px;
+    width: 100%;
+    
+}
